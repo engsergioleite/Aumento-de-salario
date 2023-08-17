@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de aumento de salário</title>
+    <style>
+        body{
+            width: 300px;
+            text-align: center;
+            padding: 10px;
+            margin: auto;
+            background-color: beige;
+        }
+
+        div{
+            padding: 10px;
+        }
+
+        div > input {
+            width: 250px;
+        }
+
+        section {
+            background-color: white;
+            border-radius: 10px 10px 10px 10px;
+            margin: auto;
+            
+        }
+
+    </style>
+</head>
+
+<body>
+<h1>Calculadore de aumento de salário</h1>
+<section>
+    <div>Nome do trabalhador: <input type="text" name="nome" id="nome"></div>
+    <div>Salario atual do trabalhador: <input type="number" name="sal" id="sal"></div>
+    <div><input type="button" value="Calcular" onclick="calc()"></div>
+</section>
+<div id="relatorio"></div>
+<script src="script.js"></script>
+</body>
+</html>
